@@ -191,3 +191,62 @@ li{
 .services-btn{
   text-align: center;
 }
+
+/* FOOTER */
+.site-footer{
+  color: #fff;
+}
+.reception-signing-up{
+  background-color: #0EB4C1;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.footer-headline{
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: 'Open Sans Condensed',Arial, sans-serif;
+  font-weight: 700;
+}
+.sing-up-btn{
+  padding: 12px 24px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Open Sans Condensed',Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 1.2;
+  transition:  background-color 0.4s ease,
+                border 0.4s ease;
+}
+.sing-up-btn:hover{
+  background-color: #DE2E54;
+  border: 2px solid #DE2E54;
+}
+.sing-up-btn:active{
+  opacity: 0.6;
+}
+.sing-up-btn:not(:last-child){
+  margin-right: 40px;
+}
+.footer-nav{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #222;
+}
+.footer-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo-link{
+  color: #fff;
+}
+.footer-site-nav-link{
+  color: #fff;
+}
+.footer-site-nav-link:active{
+  color: #fff;
+  opacity: 0.6;
+}
