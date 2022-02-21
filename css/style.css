@@ -100,3 +100,40 @@ li{
   background-color : #DE2E54;
   opacity: 0.6;
 }
+
+/* HERO */
+.hero{
+  background-color: #0EB4C1;
+  color: #fff;
+
+}
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 29px;
+}
+.hero-content{
+  width: 500px;
+}
+.hero-title{
+  font-family: 'Open Sans Condensed',Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.hero-info{
+  margin-top: 0;
+  margin-bottom: 36px;
+  line-height: 1.5;
+}
+.hero-btn:hover{
+  background-color: #de2e54;
+  color: #fff;
+  opacity: 0.8;
+}
+.hero-btn:active{
+  opacity: 0.6;
+}
