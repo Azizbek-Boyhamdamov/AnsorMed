@@ -84,9 +84,9 @@ li{
   padding: 12px 24px;
   background-color : #DE2E54;
   color: #fff;
-  border: 2px solid #DE2E54;
   font-family: 'Open Sans Condensed',Arial, sans-serif;
   font-weight: 700;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 8px;
@@ -142,15 +142,13 @@ li{
 }
 
 /* SERVICES */
-/* .services{
-  display: flex;
-  justify-content: center;
-} */
+
 .service-info-inner{
-  padding: 120px 120px;
-  /* padding-top: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 120px;
   padding-bottom: 120px;
-  width: 864px; */
+  width: 864px;
   color: #000;
 }
 .service-heading{
