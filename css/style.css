@@ -57,7 +57,10 @@ li{
 .logo-img{
   margin-right: 16px;
 }
-
+.site-nav{
+  margin-left: 30px;
+  margin-right: 30px;
+}
 .site-nav-list{
   display: flex;
   padding-left: 0;
@@ -92,6 +95,8 @@ li{
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 8px;
+  text-align: center;
+  white-space: nowrap;
   transition:  background-color 0.4s ease,
   color 0.4s ease,
   opacity 0.4s ease;
