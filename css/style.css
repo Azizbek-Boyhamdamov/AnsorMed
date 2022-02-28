@@ -23,8 +23,10 @@ li{
 .container{
   width: 1140px;
   max-width: 100%;
-  padding: 0 20px;
-  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* SITE-HEADER */
 .site-header {
